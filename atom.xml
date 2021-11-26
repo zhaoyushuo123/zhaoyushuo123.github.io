@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhaoyushuo123.github.io/"/>
+  <updated>2021-11-26T11:39:16.848Z</updated>
+  <id>https://zhaoyushuo123.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zhaoyushuo123.github.io/2021/11/26/hello-world/"/>
+    <id>https://zhaoyushuo123.github.io/2021/11/26/hello-world/</id>
+    <published>2021-11-26T11:50:36.000Z</published>
+    <updated>2021-11-26T11:39:16.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>common-hexo-cmd</title>
+    <link href="https://zhaoyushuo123.github.io/2021/11/26/common-hexo-cmd/"/>
+    <id>https://zhaoyushuo123.github.io/2021/11/26/common-hexo-cmd/</id>
+    <published>2021-11-26T11:50:16.000Z</published>
+    <updated>2021-11-26T11:38:22.608Z</updated>
+    
+    <content type="html"><![CDATA[<p>新建一小片博客</p><p>hexo new “”</p><p>从本地上传到github</p><p>hexo g -d</p><p>在本地打开并且使用本地4000端口</p><p>hexo s</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;新建一小片博客&lt;/p&gt;
+&lt;p&gt;hexo new “”&lt;/p&gt;
+&lt;p&gt;从本地上传到github&lt;/p&gt;
+&lt;p&gt;hexo g -d&lt;/p&gt;
+&lt;p&gt;在本地打开并且使用本地4000端口&lt;/p&gt;
+&lt;p&gt;hexo s&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PCA-programes</title>
+    <link href="https://zhaoyushuo123.github.io/2021/11/26/PCA-programes/"/>
+    <id>https://zhaoyushuo123.github.io/2021/11/26/PCA-programes/</id>
+    <published>2021-11-26T11:49:15.000Z</published>
+    <updated>2021-11-26T11:37:54.628Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/xinyuyang/p/11178676.html">https://www.cnblogs.com/xinyuyang/p/11178676.html</a></p><p><a href="https://blog.csdn.net/Vincent_zbt/article/details/88648739">https://blog.csdn.net/Vincent_zbt/article/details/88648739</a></p><p><a href="https://blog.csdn.net/qq_42585582/article/details/115285661">https://blog.csdn.net/qq_42585582/article/details/115285661</a></p><p><a href="https://blog.csdn.net/zhy1887996acm/article/details/104917269">https://blog.csdn.net/zhy1887996acm/article/details/104917269</a><br>对多维数组的填充<br><a href="https://blog.csdn.net/hustqb/article/details/77726660">https://blog.csdn.net/hustqb/article/details/77726660</a><br>image拉伸图片<br><a href="https://blog.csdn.net/qq_32801595/article/details/80461084">https://blog.csdn.net/qq_32801595/article/details/80461084</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/xinyuyang/p/11178676.html&quot;&gt;https://www.cnblogs.com/xinyuyang/p/11178676.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https:/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>learn-how-to-start-hexo-blog</title>
+    <link href="https://zhaoyushuo123.github.io/2021/11/26/learn-how-to-start-hexo-blog/"/>
+    <id>https://zhaoyushuo123.github.io/2021/11/26/learn-how-to-start-hexo-blog/</id>
+    <published>2021-11-26T11:36:15.000Z</published>
+    <updated>2021-11-26T11:38:05.814Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo搭建博客教学网址</p><p><a href="https://www.cnblogs.com/huanhao/p/hexobase.html">https://www.cnblogs.com/huanhao/p/hexobase.html</a></p><p><a href="https://www.jianshu.com/p/83f21745bf05">https://www.jianshu.com/p/83f21745bf05</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;hexo搭建博客教学网址&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/huanhao/p/hexobase.html&quot;&gt;https://www.cnblogs.com/huanhao/p/hexobase.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first-blog</title>
+    <link href="https://zhaoyushuo123.github.io/2021/11/26/first-blog/"/>
+    <id>https://zhaoyushuo123.github.io/2021/11/26/first-blog/</id>
+    <published>2021-11-26T11:10:36.000Z</published>
+    <updated>2021-11-26T11:38:14.957Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一个博客</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是我的第一个博客&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
