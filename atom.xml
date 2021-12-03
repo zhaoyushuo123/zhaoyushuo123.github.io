@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-11-29T01:19:41.328Z</updated>
+  <updated>2021-12-03T02:28:16.991Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>易码</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E6%98%93%E7%A0%81.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E6%98%93%E7%A0%81.html</id>
+    <published>2021-12-03T02:24:02.000Z</published>
+    <updated>2021-12-03T02:28:16.991Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="line-numbers language-none"><code class="language-none">最美的相遇，总在不经意间走进心里；   最美的缘份，总能绽放出最璀璨的徇丽； <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;最美的相遇，总在不经意间走进心里；   
+最美的缘份，总能绽放出最璀璨的徇丽； 
+&lt;span aria-hidden=&quot;true&quot; class=</summary>
+      
+    
+    
+    
+    
+    <category term="美句" scheme="https://zhaoyushuo123.github.io/tags/%E7%BE%8E%E5%8F%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>b站bili手机版只缓存音频的方式</title>
+    <link href="https://zhaoyushuo123.github.io/post/b%E7%AB%99bili%E6%89%8B%E6%9C%BA%E7%89%88%E5%8F%AA%E7%BC%93%E5%AD%98%E9%9F%B3%E9%A2%91%E7%9A%84%E6%96%B9%E5%BC%8F.html"/>
+    <id>https://zhaoyushuo123.github.io/post/b%E7%AB%99bili%E6%89%8B%E6%9C%BA%E7%89%88%E5%8F%AA%E7%BC%93%E5%AD%98%E9%9F%B3%E9%A2%91%E7%9A%84%E6%96%B9%E5%BC%8F.html</id>
+    <published>2021-12-03T02:21:43.000Z</published>
+    <updated>2021-12-03T02:23:08.997Z</updated>
+    
+    <content type="html"><![CDATA[<p>b站音频和视频是分开缓存的<br>路径在Android/data/tv.danmaku.bili/download下<br>其中audio.m4s为所需音频</p><p>将后缀.m4s改为.m4a即可使用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;b站音频和视频是分开缓存的&lt;br&gt;路径在Android/data/tv.danmaku.bili/download下&lt;br&gt;其中audio.m4s为所需音频&lt;/p&gt;
+&lt;p&gt;将后缀.m4s改为.m4a即可使用&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="手机" scheme="https://zhaoyushuo123.github.io/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>cloudDrive</title>
