@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-03T02:28:16.991Z</updated>
+  <updated>2021-12-03T06:13:55.333Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义开机启动</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8.html</id>
+    <published>2021-12-03T06:10:51.000Z</published>
+    <updated>2021-12-03T06:13:55.333Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是windwos7时的教程</p><p>主要针对everything被UAC屏蔽的缘故(软件获取权限过多被强制禁止开机启动)</p><p><a href="https://blog.csdn.net/hzfu007/article/details/6602038">https://blog.csdn.net/hzfu007/article/details/6602038</a></p><p>虽然是10年前的教程，不过放到现在windwos10也依然是干货，具有通用性</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是windwos7时的教程&lt;/p&gt;
+&lt;p&gt;主要针对everything被UAC屏蔽的缘故(软件获取权限过多被强制禁止开机启动)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/hzfu007/article/details/6602038&quot;&gt;h</summary>
+      
+    
+    
+    
+    
+    <category term="windwos" scheme="https://zhaoyushuo123.github.io/tags/windwos/"/>
+    
+  </entry>
   
   <entry>
     <title>易码</title>
