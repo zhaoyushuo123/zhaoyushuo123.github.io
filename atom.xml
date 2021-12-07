@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-03T09:13:23.111Z</updated>
+  <updated>2021-12-07T01:16:10.480Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IGCSE国际考一</title>
+    <link href="https://zhaoyushuo123.github.io/post/IGCSE%E5%9B%BD%E9%99%85%E8%80%83%E4%B8%80.html"/>
+    <id>https://zhaoyushuo123.github.io/post/IGCSE%E5%9B%BD%E9%99%85%E8%80%83%E4%B8%80.html</id>
+    <published>2021-12-07T01:14:53.000Z</published>
+    <updated>2021-12-07T01:16:10.480Z</updated>
+    
+    <content type="html"><![CDATA[<p>﻿﻿IGCSE国际考<br>计算机理论基础课程</p><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><p>二进制(Binary Systems)</p><h4 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h4><p>计算机的核心硬件：</p><p>   中央处理器CPU<br>   内存Memory<br>   硬盘Hard disc<br>   显卡 Graphics card</p><h4 id="1-2-1"><a href="#1-2-1" class="headerlink" title="1.2.1"></a>1.2.1</h4><p>计算机在硬件之间传送数据信号采用的是电平信号<br>并且只有两种：<br>  高电平    用1表示<br>  低电平    用0表示<br>电平指的是电压范围，规定<br>输出高电平&gt;2.4V<br>输出低电平&lt;0.4v</p><h4 id="1-2-2"><a href="#1-2-2" class="headerlink" title="1.2.2"></a>1.2.2</h4><p>为什么只有两种电平信号？<br>  精确度，不容易因为硬件的故障损失产生误差<br>  不会因为电路硬件问题导致输出的信号变弱而使得接收者接受了错误的信号</p><h2 id="第二节"><a href="#第二节" class="headerlink" title="第二节"></a>第二节</h2><p>内存的储存单位</p><p> 位bit<br> 一个二进制数据的内存空间<br>bit只能保存一个二进制数，并且值只有0或1两种<br>字节byte<br>8bit == 1byte<br>通常情况下一个英文字符，一个整数数字都是占用一个字节。<br>长整数，浮点数，汉子等占用两个字节。</p><p>例:一个内存里的16位二进制数 00000101  00000111，转化为10进制应该是两个数字5和 7   </p><h2 id="第三节"><a href="#第三节" class="headerlink" title="第三节"></a>第三节</h2><p>存储单位<br>1kb==1024byte<br>1mb==1024kb==1048576byte<br>1gb==1024m<br>1tb==1024g</p><p>1024 ==2^10</p><p>q</p><h2 id="第四节"><a href="#第四节" class="headerlink" title="第四节"></a>第四节</h2><p>十六进制十进制和二进制转换表</p><p>0＝＝0＝＝0000<br>1＝＝1＝＝0001<br>2＝＝2＝＝0010<br>3＝＝3＝＝0011<br>4＝＝4＝＝0100<br>5＝＝5＝＝0101<br>6＝＝6＝＝0110<br>7＝＝7＝＝0111<br>8＝＝8＝＝1000<br>9＝＝9＝＝1001<br>A＝＝10＝＝1010<br>B＝＝11＝＝1011<br>C＝＝12＝＝1100<br>D＝＝13＝＝1101<br>E＝＝14＝＝1110<br>F＝＝15＝＝1111</p><p>例题：<br>3FA  == 768  +  240 +10 ==1018</p><p>十六进制的应用<br>物理地址  即  MAC地址<br>是我们网卡的唯一编码</p><p>RGB系统 采用6位十六进制<br>html开发中 </p><h1 id="FF-00-00-红色"><a href="#FF-00-00-红色" class="headerlink" title="FF 00 00 红色"></a>FF 00 00 红色</h1><h1 id="00-FF-00-绿色"><a href="#00-FF-00-绿色" class="headerlink" title="00 FF 00 绿色"></a>00 FF 00 绿色</h1><h1 id="00-00-FF-蓝色"><a href="#00-00-FF-蓝色" class="headerlink" title="00 00 FF 蓝色"></a>00 00 FF 蓝色</h1><p>汇编语言(Assembly Code):STO FFA4<br>机器语言 </p><h2 id="第五节"><a href="#第五节" class="headerlink" title="第五节"></a>第五节</h2><p>逻辑门<br>逻辑电路 Logic Gates,Logic circuits<br>逻辑电路是数字电路中最基本的逻辑元件。<br>门是一种开关，它能按照一定的条件去控制信号的通过或者不通过。</p><p>电路的输入和输出之间，存在一定的逻辑关系(因果关系)。<br>所以逻辑电路称为逻辑门电路。</p><p>基础的逻辑关系有三种：<br>  与 and<br>  或 or<br>  非 not</p><p>nand ：两个都是1时，为0。其他时候都是 1。先算 and后算not<br>nor：先算or再算not<br>xor：（异或） a和b相同是为0，a和b不同时为1。</p><h2 id="第六节"><a href="#第六节" class="headerlink" title="第六节"></a>第六节</h2><p>逻辑电路 Logic Circuit</p><p>三角右弧为AND</p><p>三角右弧左变弧为OR </p><p>三角右加圈为NOT</p><p>AND右加圈为NAND</p><p>三角右弧左变弧右加圈为NOR</p><p>三角右弧左变弧左加弧为XOR</p><h2 id="第七节"><a href="#第七节" class="headerlink" title="第七节"></a>第七节</h2><p>输入设备</p><p>keyboards键盘</p><p>pointing devices点击设备</p><p>scanners扫描仪</p><p>bar code reader条码 QR reader二维码</p><p>digital camera数码相机</p><p>touch screen触摸屏</p><p>interactive whiteboards交互白板</p><p>sensors 传感器</p><h2 id="第八节"><a href="#第八节" class="headerlink" title="第八节"></a>第八节</h2><p>输出设备</p><p>printers打印机</p><p>loudspeaker/headphone 扬声器，耳麦</p><p>monitors 显示器</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;﻿﻿IGCSE国际考&lt;br&gt;计算机理论基础课程&lt;/p&gt;
+&lt;h2 id=&quot;第一节&quot;&gt;&lt;a href=&quot;#第一节&quot; class=&quot;headerlink&quot; title=&quot;第一节&quot;&gt;&lt;/a&gt;第一节&lt;/h2&gt;&lt;p&gt;二进制(Binary Systems)&lt;/p&gt;
+&lt;h4 id=&quot;1-1</summary>
+      
+    
+    
+    
+    
+    <category term="知识" scheme="https://zhaoyushuo123.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>初试bat和vbs自启脚本</title>
