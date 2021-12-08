@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-08T16:00:02.176Z</updated>
+  <updated>2021-12-08T16:02:12.518Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows下ubuntu安装位置迁移</title>
+    <link href="https://zhaoyushuo123.github.io/post/windows%E4%B8%8Bubuntu%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE%E8%BF%81%E7%A7%BB.html"/>
+    <id>https://zhaoyushuo123.github.io/post/windows%E4%B8%8Bubuntu%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE%E8%BF%81%E7%A7%BB.html</id>
+    <published>2021-12-08T16:01:47.000Z</published>
+    <updated>2021-12-08T16:02:12.518Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_41472037/article/details/109157329">https://blog.csdn.net/qq_41472037/article/details/109157329</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41472037/article/details/109157329&quot;&gt;https://blog.csdn.net/qq_41472037/article/details/109157329&lt;/a&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="ubuntu" scheme="https://zhaoyushuo123.github.io/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MEGA密匙</title>
+    <link href="https://zhaoyushuo123.github.io/post/MEGA%E5%AF%86%E5%8C%99.html"/>
+    <id>https://zhaoyushuo123.github.io/post/MEGA%E5%AF%86%E5%8C%99.html</id>
+    <published>2021-12-08T16:00:38.000Z</published>
+    <updated>2021-12-08T16:00:58.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>612nDv82iGyiyobrbI1WyQ</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;612nDv82iGyiyobrbI1WyQ&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="MEGA" scheme="https://zhaoyushuo123.github.io/tags/MEGA/"/>
+    
+  </entry>
   
   <entry>
     <title>如何更改docker位置</title>
