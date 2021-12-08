@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-08T15:57:32.221Z</updated>
+  <updated>2021-12-08T16:00:02.176Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何更改docker位置</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%94%B9docker%E4%BD%8D%E7%BD%AE.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%94%B9docker%E4%BD%8D%E7%BD%AE.html</id>
+    <published>2021-12-08T15:58:58.000Z</published>
+    <updated>2021-12-08T16:00:02.176Z</updated>
+    
+    <content type="html"><![CDATA[<p>修改docker的镜像存储位置</p><p><a href="https://blog.csdn.net/u013948858/article/details/111464534">https://blog.csdn.net/u013948858/article/details/111464534</a></p><p>如何更改docker的位置</p><p><a href="https://www.zhihu.com/question/359332823/answer/1597619657">https://www.zhihu.com/question/359332823/answer/1597619657</a><br>全网找，也找不到答案。docker官网有人问这个问题，也没有官方答复。<br>不过，有个网友的答案，我试了一下成功了。<br>用管理员身份打开cmd窗口，然后运行命令：mklink /j “C:\Program Files\Docker” “D:\Program Files\Docker”，在此之前要先创建”D:\Program Files\Docker”目录。最后安装docker就可以了</p><p>作者：nobody<br>链接：<a href="https://www.zhihu.com/question/359332823/answer/1597619657">https://www.zhihu.com/question/359332823/answer/1597619657</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p><p>下面有docker分发版本迁移的说明</p><p><a href="https://blog.csdn.net/lee_jackgg/article/details/106738878?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1.fixedcolumn&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1.fixedcolumn">https://blog.csdn.net/lee_jackgg/article/details/106738878?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.fixedcolumn&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.fixedcolumn</a></p><p><a href="https://www.cnblogs.com/xhznl/p/13184398.html">https://www.cnblogs.com/xhznl/p/13184398.html</a></p><p>这是更完善的教程<br><a href="https://blog.csdn.net/u013948858/article/details/111464534">https://blog.csdn.net/u013948858/article/details/111464534</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;修改docker的镜像存储位置&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/u013948858/article/details/111464534&quot;&gt;https://blog.csdn.net/u013948858/article/deta</summary>
+      
+    
+    
+    
+    
+    <category term="docker" scheme="https://zhaoyushuo123.github.io/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>设置cmd默认由管理员打开</title>
