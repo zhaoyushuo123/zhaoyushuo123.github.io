@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-08T16:09:03.377Z</updated>
+  <updated>2021-12-09T12:18:33.958Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>B树</title>
+    <link href="https://zhaoyushuo123.github.io/post/B%E6%A0%91.html"/>
+    <id>https://zhaoyushuo123.github.io/post/B%E6%A0%91.html</id>
+    <published>2021-12-09T12:15:20.000Z</published>
+    <updated>2021-12-09T12:18:33.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>2021年11月实现了B树索引</p><p>B树的基本结构介绍：</p><p>​    参数M</p><p>​    每个节点存有M个数</p><p>​    假设M=3</p><p>​    m1=10,m2=15,m3=20</p><p>​    那么该节点有至多4个叶子节点，分别为至于三个数两侧</p><p>B+树：</p><p>​    在B树的基础上，使得所有的数据存在于叶子节点，非叶子节点的部分实现冗余，作为额外的搜索</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2021年11月实现了B树索引&lt;/p&gt;
+&lt;p&gt;B树的基本结构介绍：&lt;/p&gt;
+&lt;p&gt;​    参数M&lt;/p&gt;
+&lt;p&gt;​    每个节点存有M个数&lt;/p&gt;
+&lt;p&gt;​    假设M=3&lt;/p&gt;
+&lt;p&gt;​    m1=10,m2=15,m3=20&lt;/p&gt;
+&lt;p&gt;​    那么该节点</summary>
+      
+    
+    
+    
+    
+    <category term="信息检索" scheme="https://zhaoyushuo123.github.io/tags/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo多标签以及分级目录设置方法举例</title>
@@ -444,27 +472,6 @@
 &lt;p&gt;在本地打开并且使用本地4000端口&lt;/p&gt;
 &lt;p&gt;hexo s&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>PCA-programes</title>
-    <link href="https://zhaoyushuo123.github.io/post/PCA-programes.html"/>
-    <id>https://zhaoyushuo123.github.io/post/PCA-programes.html</id>
-    <published>2021-11-26T11:49:15.000Z</published>
-    <updated>2021-11-26T11:37:54.628Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/xinyuyang/p/11178676.html">https://www.cnblogs.com/xinyuyang/p/11178676.html</a></p><p><a href="https://blog.csdn.net/Vincent_zbt/article/details/88648739">https://blog.csdn.net/Vincent_zbt/article/details/88648739</a></p><p><a href="https://blog.csdn.net/qq_42585582/article/details/115285661">https://blog.csdn.net/qq_42585582/article/details/115285661</a></p><p><a href="https://blog.csdn.net/zhy1887996acm/article/details/104917269">https://blog.csdn.net/zhy1887996acm/article/details/104917269</a><br>对多维数组的填充<br><a href="https://blog.csdn.net/hustqb/article/details/77726660">https://blog.csdn.net/hustqb/article/details/77726660</a><br>image拉伸图片<br><a href="https://blog.csdn.net/qq_32801595/article/details/80461084">https://blog.csdn.net/qq_32801595/article/details/80461084</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/xinyuyang/p/11178676.html&quot;&gt;https://www.cnblogs.com/xinyuyang/p/11178676.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https:/</summary>
       
     
     
