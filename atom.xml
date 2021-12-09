@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-09T12:18:33.958Z</updated>
+  <updated>2021-12-09T12:25:02.320Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cmd和powershell的区别</title>
+    <link href="https://zhaoyushuo123.github.io/post/cmd%E5%92%8Cpowershell%E7%9A%84%E5%8C%BA%E5%88%AB.html"/>
+    <id>https://zhaoyushuo123.github.io/post/cmd%E5%92%8Cpowershell%E7%9A%84%E5%8C%BA%E5%88%AB.html</id>
+    <published>2021-12-09T12:19:55.000Z</published>
+    <updated>2021-12-09T12:25:02.320Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单来说powershell是cmd的超集</p><p>mklink在powershell下需要更多权限设置</p><p>一般来说，cmd能做的事情，powershell都可以做</p><p>powershell是基于.net的，它是专为系统管理员设计的信windows命令上shell。</p><p>windwos powershell包括交互式提示和脚本环境，两者可以独立使用也可以使组合使用。</p><p>powershell是全平台的，cmd是windows专享的</p><p>这个和CLR有关</p><p>另外的git命令有CRLF语法</p><p>提交时转换为LF,检出时转换为CRLF</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;简单来说powershell是cmd的超集&lt;/p&gt;
+&lt;p&gt;mklink在powershell下需要更多权限设置&lt;/p&gt;
+&lt;p&gt;一般来说，cmd能做的事情，powershell都可以做&lt;/p&gt;
+&lt;p&gt;powershell是基于.net的，它是专为系统管理员设计的信window</summary>
+      
+    
+    
+    
+    
+    <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>B树</title>
@@ -446,32 +471,6 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>common-hexo-cmd</title>
-    <link href="https://zhaoyushuo123.github.io/post/common-hexo-cmd.html"/>
-    <id>https://zhaoyushuo123.github.io/post/common-hexo-cmd.html</id>
-    <published>2021-11-26T11:50:16.000Z</published>
-    <updated>2021-11-26T11:38:22.608Z</updated>
-    
-    <content type="html"><![CDATA[<p>新建一小片博客</p><p>hexo new “”</p><p>从本地上传到github</p><p>hexo g -d</p><p>在本地打开并且使用本地4000端口</p><p>hexo s</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;新建一小片博客&lt;/p&gt;
-&lt;p&gt;hexo new “”&lt;/p&gt;
-&lt;p&gt;从本地上传到github&lt;/p&gt;
-&lt;p&gt;hexo g -d&lt;/p&gt;
-&lt;p&gt;在本地打开并且使用本地4000端口&lt;/p&gt;
-&lt;p&gt;hexo s&lt;/p&gt;
-</summary>
       
     
     
