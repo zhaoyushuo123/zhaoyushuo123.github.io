@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-10T07:10:19.710Z</updated>
+  <updated>2021-12-10T07:25:38.001Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -21,11 +21,22 @@
     <link href="https://zhaoyushuo123.github.io/post/test.html"/>
     <id>https://zhaoyushuo123.github.io/post/test.html</id>
     <published>2021-12-10T07:10:19.000Z</published>
-    <updated>2021-12-10T07:10:19.710Z</updated>
+    <updated>2021-12-10T07:25:38.001Z</updated>
+    
+    <content type="html"><![CDATA[<p>这只是一个test文件</p><p>2021-12-10 15:10</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这只是一个test文件&lt;/p&gt;
+&lt;p&gt;2021-12-10 15:10&lt;/p&gt;
+</summary>
+      
     
     
     
     
+    <category term="test" scheme="https://zhaoyushuo123.github.io/tags/test/"/>
     
   </entry>
   
