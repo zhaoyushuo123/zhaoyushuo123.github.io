@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-09T12:25:02.320Z</updated>
+  <updated>2021-12-10T02:20:12.779Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>接口测试</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95.html</id>
+    <published>2021-12-10T02:11:47.000Z</published>
+    <updated>2021-12-10T02:20:12.779Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-接口测试的目的"><a href="#1-接口测试的目的" class="headerlink" title="1.接口测试的目的"></a>1.接口测试的目的</h3><h3 id="2-什么是标准的接口测试"><a href="#2-什么是标准的接口测试" class="headerlink" title="2.什么是标准的接口测试"></a>2.什么是标准的接口测试</h3><h3 id="3-什么时候做接口加密"><a href="#3-什么时候做接口加密" class="headerlink" title="3.什么时候做接口加密"></a>3.什么时候做接口加密</h3><h3 id="4-接口测试的类型"><a href="#4-接口测试的类型" class="headerlink" title="4.接口测试的类型"></a>4.接口测试的类型</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1-接口测试的目的&quot;&gt;&lt;a href=&quot;#1-接口测试的目的&quot; class=&quot;headerlink&quot; title=&quot;1.接口测试的目的&quot;&gt;&lt;/a&gt;1.接口测试的目的&lt;/h3&gt;&lt;h3 id=&quot;2-什么是标准的接口测试&quot;&gt;&lt;a href=&quot;#2-什么是标准的接口测试&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="jmeter" scheme="https://zhaoyushuo123.github.io/tags/jmeter/"/>
+    
+    <category term="接口测试" scheme="https://zhaoyushuo123.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jmeter入门</title>
+    <link href="https://zhaoyushuo123.github.io/post/jmeter%E5%85%A5%E9%97%A8.html"/>
+    <id>https://zhaoyushuo123.github.io/post/jmeter%E5%85%A5%E9%97%A8.html</id>
+    <published>2021-12-10T02:02:41.000Z</published>
+    <updated>2021-12-10T02:11:00.854Z</updated>
+    
+    <content type="html"><![CDATA[<p>jmeter是基于java实现的，要在装有java的环境下才能运行</p><p>可以直接使用jmeter的离线包</p><p>在apache-jmeter-5.4.1/bin/  目录下启动jmeter.bat</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;jmeter是基于java实现的，要在装有java的环境下才能运行&lt;/p&gt;
+&lt;p&gt;可以直接使用jmeter的离线包&lt;/p&gt;
+&lt;p&gt;在apache-jmeter-5.4.1/bin/  目录下启动jmeter.bat&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="jmeter" scheme="https://zhaoyushuo123.github.io/tags/jmeter/"/>
+    
+  </entry>
   
   <entry>
     <title>cmd和powershell的区别</title>
@@ -432,49 +481,6 @@
     
     
     <category term="插件" scheme="https://zhaoyushuo123.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>how-to-use-git</title>
-    <link href="https://zhaoyushuo123.github.io/post/how-to-use-git.html"/>
-    <id>https://zhaoyushuo123.github.io/post/how-to-use-git.html</id>
-    <published>2021-11-26T13:09:07.000Z</published>
-    <updated>2021-11-26T13:09:59.155Z</updated>
-    
-    <content type="html"><![CDATA[<p>git commit -m “”</p><p>git add .</p><p>git push</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;git commit -m “”&lt;/p&gt;
-&lt;p&gt;git add .&lt;/p&gt;
-&lt;p&gt;git push&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zhaoyushuo123.github.io/post/hello-world.html"/>
-    <id>https://zhaoyushuo123.github.io/post/hello-world.html</id>
-    <published>2021-11-26T11:50:36.000Z</published>
-    <updated>2021-11-26T11:39:16.848Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
