@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-10T02:20:12.779Z</updated>
+  <updated>2021-12-10T05:31:43.228Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://zhaoyushuo123.github.io/post/test.html"/>
+    <id>https://zhaoyushuo123.github.io/post/test.html</id>
+    <published>2021-12-10T05:31:43.000Z</published>
+    <updated>2021-12-10T05:31:43.228Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>接口测试</title>
@@ -458,29 +471,6 @@
     
     
     <category term="编程" scheme="https://zhaoyushuo123.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>youtube-comment-translator-denghao</title>
-    <link href="https://zhaoyushuo123.github.io/post/youtube-comment-translator-denghao.html"/>
-    <id>https://zhaoyushuo123.github.io/post/youtube-comment-translator-denghao.html</id>
-    <published>2021-11-26T16:17:20.000Z</published>
-    <updated>2021-11-26T16:22:18.406Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一个前端邓浩做的油管评论翻译机</p><p><a href="https://denghao.me/index.php/archives/YouTube-Comments-Translator.html">https://denghao.me/index.php/archives/YouTube-Comments-Translator.html</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是一个前端邓浩做的油管评论翻译机&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://denghao.me/index.php/archives/YouTube-Comments-Translator.html&quot;&gt;https://denghao.me/index.php/ar</summary>
-      
-    
-    
-    
-    
-    <category term="插件" scheme="https://zhaoyushuo123.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
