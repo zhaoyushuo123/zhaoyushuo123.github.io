@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-14T01:29:26.297Z</updated>
+  <updated>2021-12-15T00:27:43.439Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://zhaoyushuo123.github.io/post/python-flask-mysql%E4%B8%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AF%B7%E6%B1%82%E4%BF%AE%E6%94%B9%E5%A4%9A%E8%A1%A8.html"/>
     <id>https://zhaoyushuo123.github.io/post/python-flask-mysql%E4%B8%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AF%B7%E6%B1%82%E4%BF%AE%E6%94%B9%E5%A4%9A%E8%A1%A8.html</id>
     <published>2021-12-14T01:28:07.000Z</published>
-    <updated>2021-12-14T01:29:26.297Z</updated>
+    <updated>2021-12-15T00:27:43.439Z</updated>
     
-    <content type="html"><![CDATA[<p>def insert_one_book_info(connection, cursor, **kwargs):<br>    初始book_id<br>    …<br>    …<br>    …<br>    query=mysql查询语句</p><pre><code>try:    cursor.execute(query)    获取book_idexcept Exception as e:    print    rollbackif book_id&gt;0:    book_label = attendbooklabel(        ...            )    insert_one_into_booknumber_attendbooklabel(model=book_label)return book_id</code></pre><p>实现级联查询</p><p><a href="https://www.cnblogs.com/hello-/articles/13167185.html">https://www.cnblogs.com/hello-/articles/13167185.html</a></p>]]></content>
+    <content type="html"><![CDATA[<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">insert_one_book_info</span><span class="token punctuation">(</span>connection<span class="token punctuation">,</span> cursor<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span>初始book_id<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>query<span class="token operator">=</span>mysql查询语句<span class="token keyword">try</span><span class="token punctuation">:</span>cursor<span class="token punctuation">.</span>execute<span class="token punctuation">(</span>query<span class="token punctuation">)</span>获取book_id<span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span><span class="token keyword">print</span>rollback<span class="token keyword">if</span> book_id<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">:</span>book_label <span class="token operator">=</span> attendbooklabel<span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>insert_one_into_booknumber_attendbooklabel<span class="token punctuation">(</span>model<span class="token operator">=</span>book_label<span class="token punctuation">)</span><span class="token keyword">return</span> book_id<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>实现级联查询</p><p><a href="https://www.cnblogs.com/hello-/articles/13167185.html">https://www.cnblogs.com/hello-/articles/13167185.html</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;def insert_one_book_info(connection, cursor, **kwargs):&lt;br&gt;    初始book_id&lt;br&gt;    …&lt;br&gt;    …&lt;br&gt;    …&lt;br&gt;    query=mysql查询语句&lt;/p&gt;
-&lt;pre&gt;&lt;code</summary>
+    <summary type="html">&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span </summary>
       
     
     
