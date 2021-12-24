@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-24T07:52:14.924Z</updated>
+  <updated>2021-12-24T07:53:41.636Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pytorch安装教程</title>
+    <link href="https://zhaoyushuo123.github.io/post/pytorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html"/>
+    <id>https://zhaoyushuo123.github.io/post/pytorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html</id>
+    <published>2021-12-24T07:53:02.000Z</published>
+    <updated>2021-12-24T07:53:41.636Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装pytorch前需要安装cuda</p><p>N卡特权</p><p><a href="https://blog.csdn.net/NSJim/article/details/115408138">https://blog.csdn.net/NSJim/article/details/115408138</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;安装pytorch前需要安装cuda&lt;/p&gt;
+&lt;p&gt;N卡特权&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/NSJim/article/details/115408138&quot;&gt;https://blog.csdn.net/NSJim/article</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>文本摘要实验</title>
@@ -460,30 +484,6 @@
     
     
     <category term="手机" scheme="https://zhaoyushuo123.github.io/tags/%E6%89%8B%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cloudDrive</title>
-    <link href="https://zhaoyushuo123.github.io/post/cloudDrive.html"/>
-    <id>https://zhaoyushuo123.github.io/post/cloudDrive.html</id>
-    <published>2021-11-29T01:16:18.000Z</published>
-    <updated>2021-11-29T01:19:41.328Z</updated>
-    
-    <content type="html"><![CDATA[<p>cloudDrive</p><p><a href="https://www.52pojie.cn/thread-1490131-1-1.html">https://www.52pojie.cn/thread-1490131-1-1.html</a></p><p>如果打开后报错</p><p><a href="http://localhost:9798/">http://localhost:9798</a></p><p>应用程序无法启动，因为应用程序的并行配置不正确。有关详细信息，请参阅应用程序事件日志，或使用命令行sxstrace.exe工具</p><p>解决方法:</p><p>1.手动开启cloudDrive服务</p><p>2.设置默认浏览器为edge</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;cloudDrive&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.52pojie.cn/thread-1490131-1-1.html&quot;&gt;https://www.52pojie.cn/thread-1490131-1-1.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;如果打开</summary>
-      
-    
-    
-    
-    
-    <category term="云盘" scheme="https://zhaoyushuo123.github.io/tags/%E4%BA%91%E7%9B%98/"/>
     
   </entry>
   
