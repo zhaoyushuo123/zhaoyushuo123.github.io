@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-24T07:58:45.725Z</updated>
+  <updated>2021-12-24T08:01:52.380Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python版本控制切换说明</title>
+    <link href="https://zhaoyushuo123.github.io/post/python%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E8%AF%B4%E6%98%8E.html"/>
+    <id>https://zhaoyushuo123.github.io/post/python%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E8%AF%B4%E6%98%8E.html</id>
+    <published>2021-12-24T07:59:59.000Z</published>
+    <updated>2021-12-24T08:01:52.380Z</updated>
+    
+    <content type="html"><![CDATA[<p>在windwos下同时安装anconda3，anconda2,python3，python2</p><p>在cmd中启用时</p><p>py -2对应anconda2</p><p>py -3和python对应Python3</p><p>python2对应python2</p><p>ipython对应anconda3</p><p>在conda中切换ipython启用时的默认python版本</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在windwos下同时安装anconda3，anconda2,python3，python2&lt;/p&gt;
+&lt;p&gt;在cmd中启用时&lt;/p&gt;
+&lt;p&gt;py -2对应anconda2&lt;/p&gt;
+&lt;p&gt;py -3和python对应Python3&lt;/p&gt;
+&lt;p&gt;python2对应python</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
+    
+    <category term="anconda" scheme="https://zhaoyushuo123.github.io/tags/anconda/"/>
+    
+  </entry>
   
   <entry>
     <title>bookstore实验流程小记</title>
@@ -464,30 +492,6 @@
     
     
     <category term="知识" scheme="https://zhaoyushuo123.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>初试bat和vbs自启脚本</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E5%88%9D%E8%AF%95bat%E5%92%8Cvbs%E8%87%AA%E5%90%AF%E8%84%9A%E6%9C%AC.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E5%88%9D%E8%AF%95bat%E5%92%8Cvbs%E8%87%AA%E5%90%AF%E8%84%9A%E6%9C%AC.html</id>
-    <published>2021-12-03T09:10:21.000Z</published>
-    <updated>2021-12-03T09:13:23.111Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我自己写的自启项脚本</p><p>startup1.bat</p><pre class="line-numbers language-bat" data-language="bat"><code class="language-bat">start &#x2F;min D:\z_others\other\Everything\Everything.exestart &#x2F;min D:\z_others\other\盘姬工具箱\PracticalTools\MemReduct\x64\memreduct.exeexit<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>/min可以让程序自启后最小化</p><p>bat不支持自启后托盘</p><p>vbs可能会支持，有待发掘</p><p>startup0.vbs</p><pre class="line-numbers language-vbscript" data-language="vbscript"><code class="language-vbscript">set ws&#x3D;WScript.CreateObject(&quot;WScript.Shell&quot;)ws.Run &quot;D:\A_User_Quickcache\Desktop\startup1.bat&quot;,0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是我自己写的自启项脚本&lt;/p&gt;
-&lt;p&gt;startup1.bat&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-bat&quot; data-language=&quot;bat&quot;&gt;&lt;code class=&quot;language-bat&quot;&gt;start &amp;#x2F;mi</summary>
-      
-    
-    
-    
-    
-    <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
     
   </entry>
   
