@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-24T07:53:41.636Z</updated>
+  <updated>2021-12-24T07:58:45.725Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,82 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bookstore实验流程小记</title>
+    <link href="https://zhaoyushuo123.github.io/post/bookstore%E5%AE%9E%E9%AA%8C%E6%B5%81%E7%A8%8B%E5%B0%8F%E8%AE%B0.html"/>
+    <id>https://zhaoyushuo123.github.io/post/bookstore%E5%AE%9E%E9%AA%8C%E6%B5%81%E7%A8%8B%E5%B0%8F%E8%AE%B0.html</id>
+    <published>2021-12-24T07:57:59.000Z</published>
+    <updated>2021-12-24T07:58:45.725Z</updated>
+    
+    <content type="html"><![CDATA[<p>后续会上传实验完成的源码</p><p>数据库第二次实验</p><p>创建商铺<br>post<br><a href="http://address/seller/create_store">http://address/seller/create_store</a></p><p>request:</p><p>headers<br>body</p><p>response:<br>200创建商铺成功<br>5xx商铺ID已存在</p><hr><p>查看store_id是否存在<br>如果不存在则执行<br>否则返回id</p><hr><p>商家添加书籍信息<br><a href="http://address/seller/add_book">http://address/seller/add_book</a></p><p>request:</p><p>headers<br>body</p><p>response:<br>200添加图书信息成功<br>5xx卖家用户id不存在<br>5xx商铺id不存在<br>5xx图书id已存在</p><hr><p>查看卖家id是否存在<br>若存在，查询商铺id是否存在<br>若存在，查询图书id是否存在</p><hr><p>商家添加书籍库存<br><a href="http://address/seller/add_stock_level">http://address/seller/add_stock_level</a></p><p>response:<br>200创建成功<br>5xx商铺id不存在<br>5xx图书id不存在</p><hr><p>查询商铺id是否存在<br>若存在，查询图书id是否存在</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;后续会上传实验完成的源码&lt;/p&gt;
+&lt;p&gt;数据库第二次实验&lt;/p&gt;
+&lt;p&gt;创建商铺&lt;br&gt;post&lt;br&gt;&lt;a href=&quot;http://address/seller/create_store&quot;&gt;http://address/seller/create_store&lt;/a&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="project" scheme="https://zhaoyushuo123.github.io/tags/project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论文门户网站</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E8%AE%BA%E6%96%87%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E8%AE%BA%E6%96%87%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99.html</id>
+    <published>2021-12-24T07:57:11.000Z</published>
+    <updated>2021-12-24T07:57:34.145Z</updated>
+    
+    <content type="html"><![CDATA[<p>唯一的亮点是社区化。论检索能力不如google scholar，论可获取文献量不如scihub，论文献管理不如zotera</p><p><a href="https://readpaper.com/">https://readpaper.com/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;唯一的亮点是社区化。论检索能力不如google scholar，论可获取文献量不如scihub，论文献管理不如zotera&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://readpaper.com/&quot;&gt;https://readpaper.com/&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="论文" scheme="https://zhaoyushuo123.github.io/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大数据体验课小记</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%BD%93%E9%AA%8C%E8%AF%BE%E5%B0%8F%E8%AE%B0.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%BD%93%E9%AA%8C%E8%AF%BE%E5%B0%8F%E8%AE%B0.html</id>
+    <published>2021-12-24T07:55:14.000Z</published>
+    <updated>2021-12-24T07:55:24.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>全球所有数据量加一起是44ZB</p><p>平时是TB数量级，属于小数据</p><p>有3V特征才叫大数据(订单峰值达58.3万笔/秒   )</p><p>大数据的3V特征</p><p>Volumen规模大  </p><p>Variety多样化</p><p>Velocity高速性</p><p>HDFS    存</p><p>分布式存储系统</p><p>同一份数据copy两次，一共三份；</p><p>每份数据分多块，存于node中</p><p>然后由name node存储数据块的位置信息</p><p>MP算</p><p>MapReduce – WordCount Mapper    </p><p>MapReduce – WordCout Shuffle&amp;Sort</p><p>MapReduce–WordCount SumReducer</p><p>MapReduce–并行执行Mappers提速</p><p>Map实现</p><p>1.生产样本数据</p><p>2.生成kv对</p><p>3.reduce操作</p><p>4.数据结果</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;全球所有数据量加一起是44ZB&lt;/p&gt;
+&lt;p&gt;平时是TB数量级，属于小数据&lt;/p&gt;
+&lt;p&gt;有3V特征才叫大数据(订单峰值达58.3万笔/秒   )&lt;/p&gt;
+&lt;p&gt;大数据的3V特征&lt;/p&gt;
+&lt;p&gt;Volumen规模大  &lt;/p&gt;
+&lt;p&gt;Variety多样化&lt;/p&gt;
+&lt;p&gt;Ve</summary>
+      
+    
+    
+    
+    
+    <category term="大数据" scheme="https://zhaoyushuo123.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>pytorch安装教程</title>
@@ -412,78 +488,6 @@
     
     
     <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自定义开机启动</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8.html</id>
-    <published>2021-12-03T06:10:51.000Z</published>
-    <updated>2021-12-07T01:20:29.742Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是windwos7时的教程</p><p>主要针对everything被UAC屏蔽的缘故(软件获取权限过多被强制禁止开机启动)</p><p><a href="https://blog.csdn.net/hzfu007/article/details/6602038">https://blog.csdn.net/hzfu007/article/details/6602038</a></p><p>虽然是10年前的教程，不过放到现在windwos10也依然是干货，具有通用性</p><p>2021/12/7更进</p><p>制作一个bat脚本更高效</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是windwos7时的教程&lt;/p&gt;
-&lt;p&gt;主要针对everything被UAC屏蔽的缘故(软件获取权限过多被强制禁止开机启动)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/hzfu007/article/details/6602038&quot;&gt;h</summary>
-      
-    
-    
-    
-    
-    <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>易码</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E6%98%93%E7%A0%81.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E6%98%93%E7%A0%81.html</id>
-    <published>2021-12-03T02:24:02.000Z</published>
-    <updated>2021-12-03T02:28:16.991Z</updated>
-    
-    <content type="html"><![CDATA[<pre class="line-numbers language-none"><code class="language-none">最美的相遇，总在不经意间走进心里；   最美的缘份，总能绽放出最璀璨的徇丽； <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;最美的相遇，总在不经意间走进心里；   
-最美的缘份，总能绽放出最璀璨的徇丽； 
-&lt;span aria-hidden=&quot;true&quot; class=</summary>
-      
-    
-    
-    
-    
-    <category term="美句" scheme="https://zhaoyushuo123.github.io/tags/%E7%BE%8E%E5%8F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>b站bili手机版只缓存音频的方式</title>
-    <link href="https://zhaoyushuo123.github.io/post/b%E7%AB%99bili%E6%89%8B%E6%9C%BA%E7%89%88%E5%8F%AA%E7%BC%93%E5%AD%98%E9%9F%B3%E9%A2%91%E7%9A%84%E6%96%B9%E5%BC%8F.html"/>
-    <id>https://zhaoyushuo123.github.io/post/b%E7%AB%99bili%E6%89%8B%E6%9C%BA%E7%89%88%E5%8F%AA%E7%BC%93%E5%AD%98%E9%9F%B3%E9%A2%91%E7%9A%84%E6%96%B9%E5%BC%8F.html</id>
-    <published>2021-12-03T02:21:43.000Z</published>
-    <updated>2021-12-03T02:23:08.997Z</updated>
-    
-    <content type="html"><![CDATA[<p>b站音频和视频是分开缓存的<br>路径在Android/data/tv.danmaku.bili/download下<br>其中audio.m4s为所需音频</p><p>将后缀.m4s改为.m4a即可使用</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;b站音频和视频是分开缓存的&lt;br&gt;路径在Android/data/tv.danmaku.bili/download下&lt;br&gt;其中audio.m4s为所需音频&lt;/p&gt;
-&lt;p&gt;将后缀.m4s改为.m4a即可使用&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="手机" scheme="https://zhaoyushuo123.github.io/tags/%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
