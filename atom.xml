@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2021-12-30T13:22:52.695Z</updated>
+  <updated>2022-01-18T01:38:05.760Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ubuntu换源</title>
+    <link href="https://zhaoyushuo123.github.io/post/ubuntu%E6%8D%A2%E6%BA%90.html"/>
+    <id>https://zhaoyushuo123.github.io/post/ubuntu%E6%8D%A2%E6%BA%90.html</id>
+    <published>2022-01-18T01:36:15.000Z</published>
+    <updated>2022-01-18T01:38:05.760Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/Powerking666/article/details/120601812">https://blog.csdn.net/Powerking666/article/details/120601812</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/Powerking666/article/details/120601812&quot;&gt;https://blog.csdn.net/Powerking666/article/details/120601812&lt;/a&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="ubuntu" scheme="https://zhaoyushuo123.github.io/tags/ubuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>朴素贝叶斯</title>
@@ -388,28 +410,6 @@
     <category term="docker" scheme="https://zhaoyushuo123.github.io/tags/docker/"/>
     
     <category term="smartide" scheme="https://zhaoyushuo123.github.io/tags/smartide/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>windows下ubuntu安装位置迁移</title>
-    <link href="https://zhaoyushuo123.github.io/post/windows%E4%B8%8Bubuntu%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE%E8%BF%81%E7%A7%BB.html"/>
-    <id>https://zhaoyushuo123.github.io/post/windows%E4%B8%8Bubuntu%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE%E8%BF%81%E7%A7%BB.html</id>
-    <published>2021-12-08T16:01:47.000Z</published>
-    <updated>2021-12-08T16:02:12.518Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_41472037/article/details/109157329">https://blog.csdn.net/qq_41472037/article/details/109157329</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41472037/article/details/109157329&quot;&gt;https://blog.csdn.net/qq_41472037/article/details/109157329&lt;/a&gt;&lt;/p&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="ubuntu" scheme="https://zhaoyushuo123.github.io/tags/ubuntu/"/>
     
   </entry>
   
