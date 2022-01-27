@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-01-27T11:43:10.304Z</updated>
+  <updated>2022-01-27T12:00:17.521Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>adac</title>
+    <link href="https://zhaoyushuo123.github.io/post/adac.html"/>
+    <id>https://zhaoyushuo123.github.io/post/adac.html</id>
+    <published>2022-01-27T11:59:33.000Z</published>
+    <updated>2022-01-27T12:00:17.521Z</updated>
+    
+    <content type="html"><![CDATA[<p>SSS</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SSS&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>kk</title>
@@ -479,28 +500,6 @@
     
     
     <category term="docker" scheme="https://zhaoyushuo123.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>设置cmd默认由管理员打开</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E8%AE%BE%E7%BD%AEcmd%E9%BB%98%E8%AE%A4%E7%94%B1%E7%AE%A1%E7%90%86%E5%91%98%E6%89%93%E5%BC%80.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E8%AE%BE%E7%BD%AEcmd%E9%BB%98%E8%AE%A4%E7%94%B1%E7%AE%A1%E7%90%86%E5%91%98%E6%89%93%E5%BC%80.html</id>
-    <published>2021-12-08T15:54:55.000Z</published>
-    <updated>2021-12-08T15:57:32.221Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_41494557/article/details/117329641">https://blog.csdn.net/qq_41494557/article/details/117329641</a></p><p>从快捷方式入手</p><p>打开cmd目录，右击，属性，设置为管理员打开</p><p>重启cmd</p><p>部分命令如mklink只能在cmd管理员模式下运行，powershell并不支持</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41494557/article/details/117329641&quot;&gt;https://blog.csdn.net/qq_41494557/article/details/117329641&lt;/a&gt;&lt;/p&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
     
   </entry>
   
