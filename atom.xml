@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-02-04T05:51:46.710Z</updated>
+  <updated>2022-02-07T08:12:51.155Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#define CRT_SECURE_NO_WARNINGS 1</title>
+    <link href="https://zhaoyushuo123.github.io/post/define-CRT-SECURE-NO-WARNINGS-1.html"/>
+    <id>https://zhaoyushuo123.github.io/post/define-CRT-SECURE-NO-WARNINGS-1.html</id>
+    <published>2022-02-07T08:11:05.000Z</published>
+    <updated>2022-02-07T08:12:51.155Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/daimasanjiaomao/p/14134020.html">https://www.cnblogs.com/daimasanjiaomao/p/14134020.html</a></p><p><a href="https://blog.csdn.net/helloworld0906/article/details/84566276">https://blog.csdn.net/helloworld0906/article/details/84566276</a></p><p>#define CRT_SECURE_NO_WARNINGS 1主要针对IDE VS起作用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/daimasanjiaomao/p/14134020.html&quot;&gt;https://www.cnblogs.com/daimasanjiaomao/p/14134020.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a h</summary>
+      
+    
+    
+    
+    
+    <category term="windows" scheme="https://zhaoyushuo123.github.io/tags/windows/"/>
+    
+    <category term="c" scheme="https://zhaoyushuo123.github.io/tags/c/"/>
+    
+  </entry>
   
   <entry>
     <title>postgresql安装问题</title>
@@ -482,29 +507,6 @@
     <category term="docker" scheme="https://zhaoyushuo123.github.io/tags/docker/"/>
     
     <category term="smartide" scheme="https://zhaoyushuo123.github.io/tags/smartide/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MEGA密匙</title>
-    <link href="https://zhaoyushuo123.github.io/post/MEGA%E5%AF%86%E5%8C%99.html"/>
-    <id>https://zhaoyushuo123.github.io/post/MEGA%E5%AF%86%E5%8C%99.html</id>
-    <published>2021-12-08T16:00:38.000Z</published>
-    <updated>2021-12-08T16:00:58.618Z</updated>
-    
-    <content type="html"><![CDATA[<p>612nDv82iGyiyobrbI1WyQ</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;612nDv82iGyiyobrbI1WyQ&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="MEGA" scheme="https://zhaoyushuo123.github.io/tags/MEGA/"/>
     
   </entry>
   
