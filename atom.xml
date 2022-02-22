@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-02-22T01:56:10.313Z</updated>
+  <updated>2022-02-22T01:57:06.833Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pip豆瓣清华源</title>
+    <link href="https://zhaoyushuo123.github.io/post/pip%E8%B1%86%E7%93%A3%E6%B8%85%E5%8D%8E%E6%BA%90.html"/>
+    <id>https://zhaoyushuo123.github.io/post/pip%E8%B1%86%E7%93%A3%E6%B8%85%E5%8D%8E%E6%BA%90.html</id>
+    <published>2022-02-22T01:56:47.000Z</published>
+    <updated>2022-02-22T01:57:06.833Z</updated>
+    
+    <content type="html"><![CDATA[<p>pip install tensorflow -i <a href="https://pypi.douban.com/simple">https://pypi.douban.com/simple</a><br>pip config set global.index-url <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;pip install tensorflow -i &lt;a href=&quot;https://pypi.douban.com/simple&quot;&gt;https://pypi.douban.com/simple&lt;/a&gt;&lt;br&gt;pip config set global.index-url </summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
+    
+    <category term="pip" scheme="https://zhaoyushuo123.github.io/tags/pip/"/>
+    
+  </entry>
   
   <entry>
     <title>为什么安装成功但是sklearn无法import</title>
@@ -478,33 +502,6 @@
     
     
     <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文本摘要实验</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E6%96%87%E6%9C%AC%E6%91%98%E8%A6%81%E5%AE%9E%E9%AA%8C.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E6%96%87%E6%9C%AC%E6%91%98%E8%A6%81%E5%AE%9E%E9%AA%8C.html</id>
-    <published>2021-12-24T07:50:16.000Z</published>
-    <updated>2021-12-24T07:52:14.924Z</updated>
-    
-    <content type="html"><![CDATA[<p>以下是参考</p><p>文本摘要实验</p><p>首先写爬虫爬取新闻</p><p>然后根据爬取的内容做分词</p><p>使用最大覆盖问题的解决思路提炼文本摘要</p><p><a href="https://blog.csdn.net/qq_33722172/article/details/82469050">https://blog.csdn.net/qq_33722172/article/details/82469050</a></p><p><a href="https://www.52pojie.cn/thread-1103864-1-1.html">https://www.52pojie.cn/thread-1103864-1-1.html</a></p><p><a href="https://blog.csdn.net/qq_41776239/article/details/121359151">https://blog.csdn.net/qq_41776239/article/details/121359151</a></p><p><a href="https://blog.csdn.net/Thefreelittle/article/details/121342813?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-1.no_search_link&amp;spm=1001.2101.3001.4242.2">https://blog.csdn.net/Thefreelittle/article/details/121342813?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-1.no_search_link&amp;spm=1001.2101.3001.4242.2</a></p><p>后续会将实验源码上传并附上链接</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;以下是参考&lt;/p&gt;
-&lt;p&gt;文本摘要实验&lt;/p&gt;
-&lt;p&gt;首先写爬虫爬取新闻&lt;/p&gt;
-&lt;p&gt;然后根据爬取的内容做分词&lt;/p&gt;
-&lt;p&gt;使用最大覆盖问题的解决思路提炼文本摘要&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_33722172/art</summary>
-      
-    
-    
-    
-    
-    <category term="project" scheme="https://zhaoyushuo123.github.io/tags/project/"/>
     
   </entry>
   
