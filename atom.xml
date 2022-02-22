@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-02-22T01:49:22.212Z</updated>
+  <updated>2022-02-22T01:51:48.359Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>dataframe处理datatime</title>
+    <link href="https://zhaoyushuo123.github.io/post/dataframe%E5%A4%84%E7%90%86datatime.html"/>
+    <id>https://zhaoyushuo123.github.io/post/dataframe%E5%A4%84%E7%90%86datatime.html</id>
+    <published>2022-02-22T01:50:51.000Z</published>
+    <updated>2022-02-22T01:51:48.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>python处理日期缺失<br>1）DataFrame.reindex：调整dataframe的索引以适应新的索引<br>2） DataFrame.resample，可以对时间序列重新采样，支持补充缺失值<br><a href="https://blog.csdn.net/m0_51230647/article/details/108876200">https://blog.csdn.net/m0_51230647/article/details/108876200</a></p><p>python转换datetime和str<br><a href="https://www.jianshu.com/p/b10b8389c821">https://www.jianshu.com/p/b10b8389c821</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;python处理日期缺失&lt;br&gt;1）DataFrame.reindex：调整dataframe的索引以适应新的索引&lt;br&gt;2） DataFrame.resample，可以对时间序列重新采样，支持补充缺失值&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>建议的编程语言列表</title>
@@ -480,30 +502,6 @@
     
     
     <category term="test" scheme="https://zhaoyushuo123.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>接口测试</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95.html</id>
-    <published>2021-12-10T02:11:47.000Z</published>
-    <updated>2021-12-10T02:20:12.779Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-接口测试的目的"><a href="#1-接口测试的目的" class="headerlink" title="1.接口测试的目的"></a>1.接口测试的目的</h3><h3 id="2-什么是标准的接口测试"><a href="#2-什么是标准的接口测试" class="headerlink" title="2.什么是标准的接口测试"></a>2.什么是标准的接口测试</h3><h3 id="3-什么时候做接口加密"><a href="#3-什么时候做接口加密" class="headerlink" title="3.什么时候做接口加密"></a>3.什么时候做接口加密</h3><h3 id="4-接口测试的类型"><a href="#4-接口测试的类型" class="headerlink" title="4.接口测试的类型"></a>4.接口测试的类型</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;1-接口测试的目的&quot;&gt;&lt;a href=&quot;#1-接口测试的目的&quot; class=&quot;headerlink&quot; title=&quot;1.接口测试的目的&quot;&gt;&lt;/a&gt;1.接口测试的目的&lt;/h3&gt;&lt;h3 id=&quot;2-什么是标准的接口测试&quot;&gt;&lt;a href=&quot;#2-什么是标准的接口测试&quot;</summary>
-      
-    
-    
-    
-    
-    <category term="jmeter" scheme="https://zhaoyushuo123.github.io/tags/jmeter/"/>
-    
-    <category term="接口测试" scheme="https://zhaoyushuo123.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
