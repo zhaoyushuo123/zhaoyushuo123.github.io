@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-02-22T01:57:06.833Z</updated>
+  <updated>2022-02-22T01:58:45.838Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>lstm参数说明</title>
+    <link href="https://zhaoyushuo123.github.io/post/lstm%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html"/>
+    <id>https://zhaoyushuo123.github.io/post/lstm%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html</id>
+    <published>2022-02-22T01:58:26.000Z</published>
+    <updated>2022-02-22T01:58:45.838Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p><a href="https://blog.csdn.net/weixin_42886817/article/details/99831718">https://blog.csdn.net/weixin_42886817/article/details/99831718</a></p></li><li><pre><code>model = Sequential()model.add(LSTM(4, input_shape=(1, look_back)))model.add(Dense(1))model.compile(loss=&#39;mean_squared_error&#39;, optimizer=&#39;adam&#39;) #均方误差损失函mean_squared_errormodel.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)</code></pre></li><li><p>Sequential 模型结构： 层（layers）的线性堆栈。简单来说，它是一个简单的线性结构，没有多余分支，是多个网络层的堆叠。</p></li></ul><h4 id="input-shape-输入的形状（格式）"><a href="#input-shape-输入的形状（格式）" class="headerlink" title="input shape 输入的形状（格式）"></a>input <a href="https://so.csdn.net/so/search?q=shape&spm=1001.2101.3001.7020">shape</a> 输入的形状（格式）</h4><p>构建一个模型时，第一层需要给出期待的<code>Input shape</code> ，剩余的层次会自动判断。</p><p>complication 编译<br>在训练模型之前，您需要配置学习过程，这是通过编译方法完成的。 形式是model.compile(…)<br>它收到三个参数：</p><p>优化器（opyimizer）,可以是优化器的字符串标识符，也可以是Optimizer类的实例<br>损失函数（loss function），模型要将其最小化，可以通过字符串标识符指定，可以通过目标函数指定<br>指标（metricts）列表， 对于任何分类问题，需要将其设置为metrics = [‘accuracy’]。 度量可以是现有度量的字符串标识符或自定义度量函数。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_42886817/article/details/99831718&quot;&gt;https://blog.csdn.net/weixin_42886817/article/details/9</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
+    
+    <category term="lstm" scheme="https://zhaoyushuo123.github.io/tags/lstm/"/>
+    
+  </entry>
   
   <entry>
     <title>pip豆瓣清华源</title>
@@ -478,30 +503,6 @@
     
     
     <category term="大数据" scheme="https://zhaoyushuo123.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pytorch安装教程</title>
-    <link href="https://zhaoyushuo123.github.io/post/pytorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html"/>
-    <id>https://zhaoyushuo123.github.io/post/pytorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html</id>
-    <published>2021-12-24T07:53:02.000Z</published>
-    <updated>2021-12-24T07:53:41.636Z</updated>
-    
-    <content type="html"><![CDATA[<p>安装pytorch前需要安装cuda</p><p>N卡特权</p><p><a href="https://blog.csdn.net/NSJim/article/details/115408138">https://blog.csdn.net/NSJim/article/details/115408138</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;安装pytorch前需要安装cuda&lt;/p&gt;
-&lt;p&gt;N卡特权&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/NSJim/article/details/115408138&quot;&gt;https://blog.csdn.net/NSJim/article</summary>
-      
-    
-    
-    
-    
-    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
     
   </entry>
   
