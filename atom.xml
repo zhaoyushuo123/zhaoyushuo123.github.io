@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-02-22T02:00:05.284Z</updated>
+  <updated>2022-03-09T03:18:43.957Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高级数据库(一)</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%B8%80.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%B8%80.html</id>
+    <published>2022-03-09T03:17:26.000Z</published>
+    <updated>2022-03-09T03:18:43.957Z</updated>
+    
+    <content type="html"><![CDATA[<p>数据库系统功能</p><p>数据存储</p><p>数据访问</p><p>形态</p><p>关系型—-》oldsql/newsql</p><p>非关系型—-》键值对/图/文档</p><p>差异</p><table><thead><tr><th>- 差异 -</th><th>- 关系 -</th><th>- 非 -</th></tr></thead><tbody><tr><td>一致性</td><td>ACID</td><td>弱</td></tr></tbody></table><p>分布式数据库/云数据库</p><p>1.性能指标</p><p>2.容错</p><p>3.正确性/数据一致性</p><p>4.实现</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;数据库系统功能&lt;/p&gt;
+&lt;p&gt;数据存储&lt;/p&gt;
+&lt;p&gt;数据访问&lt;/p&gt;
+&lt;p&gt;形态&lt;/p&gt;
+&lt;p&gt;关系型—-》oldsql/newsql&lt;/p&gt;
+&lt;p&gt;非关系型—-》键值对/图/文档&lt;/p&gt;
+&lt;p&gt;差异&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;- 差异 -</summary>
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://zhaoyushuo123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>2022美赛C题买入评分公式</title>
@@ -484,30 +516,6 @@
     
     
     <category term="project" scheme="https://zhaoyushuo123.github.io/tags/project/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>论文门户网站</title>
-    <link href="https://zhaoyushuo123.github.io/post/%E8%AE%BA%E6%96%87%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99.html"/>
-    <id>https://zhaoyushuo123.github.io/post/%E8%AE%BA%E6%96%87%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99.html</id>
-    <published>2021-12-24T07:57:11.000Z</published>
-    <updated>2021-12-24T07:57:34.145Z</updated>
-    
-    <content type="html"><![CDATA[<p>唯一的亮点是社区化。论检索能力不如google scholar，论可获取文献量不如scihub，论文献管理不如zotera</p><p><a href="https://readpaper.com/">https://readpaper.com/</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;唯一的亮点是社区化。论检索能力不如google scholar，论可获取文献量不如scihub，论文献管理不如zotera&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://readpaper.com/&quot;&gt;https://readpaper.com/&lt;/a&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="论文" scheme="https://zhaoyushuo123.github.io/tags/%E8%AE%BA%E6%96%87/"/>
     
   </entry>
   
