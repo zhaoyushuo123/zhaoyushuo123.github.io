@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-03-09T03:21:34.390Z</updated>
+  <updated>2022-03-09T03:28:14.887Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高级数据库(三)</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%B8%89.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%B8%89.html</id>
+    <published>2022-03-09T03:22:33.000Z</published>
+    <updated>2022-03-09T03:28:14.887Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Log-structured-store"><a href="#Log-structured-store" class="headerlink" title="Log-structured store"></a><a href="http://blog.notdot.net/2009/12/Damn-Cool-Algorithms-Log-structured-storage">Log-structured store</a></h4><p>日志</p><h5 id="写"><a href="#写" class="headerlink" title="写"></a>写</h5><p>追加式，顺序写，</p><table><thead><tr><th>–</th><th>–</th></tr></thead><tbody><tr><td>Foo</td><td>A</td></tr></tbody></table><p>追加第二个元素Bar同时追加日志A·</p><table><thead><tr><th>–</th><th>–</th><th>–</th><th>–</th></tr></thead><tbody><tr><td>Foo</td><td>A</td><td>Bar</td><td>A`</td></tr></tbody></table><p>重写Foo时在A·后追加，并没有修改Foo</p><table><thead><tr><th>–</th><th>–</th></tr></thead><tbody><tr><td>Foo`</td><td>A``</td></tr></tbody></table><p>优点：</p><p>不限于首先删除最旧的</p><p>利于反复覆盖写的数据</p><p>利于数据长时间存在的数据库</p><h5 id="回收机制"><a href="#回收机制" class="headerlink" title="回收机制"></a>回收机制</h5><p>(磁盘空间有限，回收时也有代价的)</p><p>例：每４个块为一个segment；4个 =满了就回收</p><h4 id="BITCASK架构"><a href="#BITCASK架构" class="headerlink" title="BITCASK架构"></a>BITCASK架构</h4><p>内存-哈希索引</p><p>put()不管是否存在，都是追加写，然后更新索引</p><p>get()都是只查看位置，不写</p><p>回收和文件的merge</p><p>多个文件对同一key的多个value，可以回收掉旧的只保留新的</p><p>例:</p><p>D1    purr:2108    purr:2105</p><p>D2    purr:2111</p><p>D3    mew:1086</p><p>只存purr:2111和mew:1086</p><h4 id="存储大小计算"><a href="#存储大小计算" class="headerlink" title="存储大小计算"></a>存储大小计算</h4><h4 id="容错机制"><a href="#容错机制" class="headerlink" title="容错机制"></a>容错机制</h4><p>B+树需要日志来保证掉电时不会丢失写入</p><p>BITCASK本身数据就是日志</p><p>对old data file生成一个hint file，定期做哈希表物化(hint file只存value的位置信息，定期重写，并且不写旧value的位置)</p><h3 id="Log-structured-Merge-Tree-LSM-tree-Model"><a href="#Log-structured-Merge-Tree-LSM-tree-Model" class="headerlink" title="Log-structured Merge Tree(LSM-tree) Model"></a><strong>Log-structured Merge Tree(LSM-tree) Model</strong></h3><p>基本架构</p><p>Memtable</p><p>SStables</p><h4 id="写操作"><a href="#写操作" class="headerlink" title="写操作"></a>写操作</h4><p>①在内存中先写入memtable，当一个memtable写满后变为immutable memtable</p><p>②然后把immutable memtable写入磁盘(小合并minor Compaction)</p><h6 id="①和②同时进行，不断产生新的imm，同时冻结-小合并minor-Compaction-入磁盘"><a href="#①和②同时进行，不断产生新的imm，同时冻结-小合并minor-Compaction-入磁盘" class="headerlink" title="①和②同时进行，不断产生新的imm，同时冻结(小合并minor Compaction)入磁盘"></a>①和②同时进行，不断产生新的imm，同时冻结(小合并minor Compaction)入磁盘</h6><p>③imm转移到磁盘后变为level 0 SStables</p><p>④level 0转为level 1    (大合并major Compaction)(level 1各块不相交)</p><p>⑤level1转为level 2    (level 2 各块不相交)</p><h4 id="读操作"><a href="#读操作" class="headerlink" title="读操作"></a>读操作</h4><p>先读刚写入的内存中的有没有，</p><p>没有读到就读磁盘中leval0中的最新数据</p><p>没有读到就读level1</p><p>从上往下，从新往旧读(读起来比B+Tree慢)</p><h5 id="写放大"><a href="#写放大" class="headerlink" title="写放大"></a>写放大</h5><p>①写入1-100，其中57在leval0 leval1 level 2中都有</p><p>②写入 5 ,6,51-100；为了写入5和6；需要在level1时写1-25</p><h5 id="写操作时的小合并和大合并很性能；一般研究减少写放大-写放大减少可以减少合并"><a href="#写操作时的小合并和大合并很性能；一般研究减少写放大-写放大减少可以减少合并" class="headerlink" title="写操作时的小合并和大合并很性能；一般研究减少写放大(写放大减少可以减少合并)"></a>写操作时的小合并和大合并很性能；一般研究减少写放大(写放大减少可以减少合并)</h5><p>B+Tree的并发不容易实现，LSMTree的并发容易实现</p><h4 id="链表扩展"><a href="#链表扩展" class="headerlink" title="链表扩展"></a>链表扩展</h4><p>选择部分数据构成上层链表（表面上有好多层，实际上没有层的概念；实际上一个结点有多个next既有多个后继结点）</p><h4 id="LevelDB的Sstable结构"><a href="#LevelDB的Sstable结构" class="headerlink" title="LevelDB的Sstable结构"></a>LevelDB的Sstable结构</h4><p>sstable文件中metablocl index中元信息？？？？</p><table><thead><tr><th>–</th><th>–</th></tr></thead><tbody><tr><td>data block (n)</td><td>存</td></tr><tr><td>meta block (n)</td><td>管</td></tr><tr><td>metablock index</td><td>管</td></tr><tr><td>index block</td><td>管</td></tr><tr><td>footer</td><td>管</td></tr></tbody></table><p>1）DataBlock：存储Key-Value记录，分为Data、type、CRC三部分</p><p>2）MetaBlock：暂时没有使用</p><p>3）MetaBlock_index：记录filter的相关信息（暂时没有考虑filter）</p><p>4）IndexBlock：描述一个DataBlock，存储着对应DataBlock的最大Key值，DataBlock在.sst文件中的偏移量和大小</p><p>5）Footer ：索引的索引，记录IndexBlock和MetaIndexBlock在SSTable中的偏移量了和大小</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;Log-structured-store&quot;&gt;&lt;a href=&quot;#Log-structured-store&quot; class=&quot;headerlink&quot; title=&quot;Log-structured store&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://blog.notdo</summary>
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://zhaoyushuo123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>高级数据库(二)</title>
@@ -487,34 +509,6 @@
     
     
     <category term="机器学习" scheme="https://zhaoyushuo123.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python版本控制切换说明</title>
-    <link href="https://zhaoyushuo123.github.io/post/python%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E8%AF%B4%E6%98%8E.html"/>
-    <id>https://zhaoyushuo123.github.io/post/python%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E8%AF%B4%E6%98%8E.html</id>
-    <published>2021-12-24T07:59:59.000Z</published>
-    <updated>2021-12-24T08:01:52.380Z</updated>
-    
-    <content type="html"><![CDATA[<p>在windwos下同时安装anconda3，anconda2,python3，python2</p><p>在cmd中启用时</p><p>py -2对应anconda2</p><p>py -3和python对应Python3</p><p>python2对应python2</p><p>ipython对应anconda3</p><p>在conda中切换ipython启用时的默认python版本</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;在windwos下同时安装anconda3，anconda2,python3，python2&lt;/p&gt;
-&lt;p&gt;在cmd中启用时&lt;/p&gt;
-&lt;p&gt;py -2对应anconda2&lt;/p&gt;
-&lt;p&gt;py -3和python对应Python3&lt;/p&gt;
-&lt;p&gt;python2对应python</summary>
-      
-    
-    
-    
-    
-    <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
-    
-    <category term="anconda" scheme="https://zhaoyushuo123.github.io/tags/anconda/"/>
     
   </entry>
   
