@@ -6,7 +6,7 @@
   <link href="https://zhaoyushuo123.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoyushuo123.github.io/"/>
-  <updated>2022-03-09T03:18:43.957Z</updated>
+  <updated>2022-03-09T03:21:34.390Z</updated>
   <id>https://zhaoyushuo123.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高级数据库(二)</title>
+    <link href="https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%8C.html"/>
+    <id>https://zhaoyushuo123.github.io/post/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%8C.html</id>
+    <published>2022-03-09T03:20:51.000Z</published>
+    <updated>2022-03-09T03:21:34.390Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="为什么引入buffer缓冲块"><a href="#为什么引入buffer缓冲块" class="headerlink" title="为什么引入buffer缓冲块"></a>为什么引入buffer缓冲块</h4><p>B+写放大，不能顺序写，读的性能差</p><h5 id="引入buffer利于写放大"><a href="#引入buffer利于写放大" class="headerlink" title="引入buffer利于写放大"></a>引入buffer利于写放大</h5><p>引入日志保证写入内存时持久化，可以把随机写改为顺序写</p><p>利于读</p><p>空页，查找一个页，淘汰(LRU,SendCache)</p><p>网址<a href="https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/">https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/</a></p><p>LRU缓存</p><p>【 需要循环结构和额外的缓存标志位】</p><p>1.0, <strong>First In First Out (FIFO)</strong></p><p>按顺序</p><p>2.0, <strong>Optimal Page replacement</strong></p><p>替换掉未来用的最少的(但是计算机无法预测未来所以用下面的方法替换)</p><p>3.0 , <strong>Least Recently Used</strong></p><p>替换掉最老的</p><p>用链表和哈希表实现</p><p>见LRU.pdf第4页</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;为什么引入buffer缓冲块&quot;&gt;&lt;a href=&quot;#为什么引入buffer缓冲块&quot; class=&quot;headerlink&quot; title=&quot;为什么引入buffer缓冲块&quot;&gt;&lt;/a&gt;为什么引入buffer缓冲块&lt;/h4&gt;&lt;p&gt;B+写放大，不能顺序写，读的性能差&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://zhaoyushuo123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>高级数据库(一)</title>
@@ -492,30 +515,6 @@
     <category term="python" scheme="https://zhaoyushuo123.github.io/tags/python/"/>
     
     <category term="anconda" scheme="https://zhaoyushuo123.github.io/tags/anconda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bookstore实验流程小记</title>
-    <link href="https://zhaoyushuo123.github.io/post/bookstore%E5%AE%9E%E9%AA%8C%E6%B5%81%E7%A8%8B%E5%B0%8F%E8%AE%B0.html"/>
-    <id>https://zhaoyushuo123.github.io/post/bookstore%E5%AE%9E%E9%AA%8C%E6%B5%81%E7%A8%8B%E5%B0%8F%E8%AE%B0.html</id>
-    <published>2021-12-24T07:57:59.000Z</published>
-    <updated>2021-12-24T07:58:45.725Z</updated>
-    
-    <content type="html"><![CDATA[<p>后续会上传实验完成的源码</p><p>数据库第二次实验</p><p>创建商铺<br>post<br><a href="http://address/seller/create_store">http://address/seller/create_store</a></p><p>request:</p><p>headers<br>body</p><p>response:<br>200创建商铺成功<br>5xx商铺ID已存在</p><hr><p>查看store_id是否存在<br>如果不存在则执行<br>否则返回id</p><hr><p>商家添加书籍信息<br><a href="http://address/seller/add_book">http://address/seller/add_book</a></p><p>request:</p><p>headers<br>body</p><p>response:<br>200添加图书信息成功<br>5xx卖家用户id不存在<br>5xx商铺id不存在<br>5xx图书id已存在</p><hr><p>查看卖家id是否存在<br>若存在，查询商铺id是否存在<br>若存在，查询图书id是否存在</p><hr><p>商家添加书籍库存<br><a href="http://address/seller/add_stock_level">http://address/seller/add_stock_level</a></p><p>response:<br>200创建成功<br>5xx商铺id不存在<br>5xx图书id不存在</p><hr><p>查询商铺id是否存在<br>若存在，查询图书id是否存在</p><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;后续会上传实验完成的源码&lt;/p&gt;
-&lt;p&gt;数据库第二次实验&lt;/p&gt;
-&lt;p&gt;创建商铺&lt;br&gt;post&lt;br&gt;&lt;a href=&quot;http://address/seller/create_store&quot;&gt;http://address/seller/create_store&lt;/a&gt;&lt;/</summary>
-      
-    
-    
-    
-    
-    <category term="project" scheme="https://zhaoyushuo123.github.io/tags/project/"/>
     
   </entry>
   
